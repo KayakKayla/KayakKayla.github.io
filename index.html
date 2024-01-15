@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="myscripts.js"></script>
+		<title>Kayla</title>
+	</head>
+	<body>
+		<div class="nav">
+			<div class="right">
+				<ul>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#all_projects">Projects</a></li>
+					<li><a>About Me</a></li>
+				<ul>
+			</div>
+		</div>
+		<div class="content">
+		<div class="intro">
+			<h1>Hello</h1>
+			<h2>My name's Kayla, and I'm a first year SE student at UW</h2>
+		</div>
+		<div class="project" id="all_projects">
+			<h1 id="proj_title">Projects</h1>
+			<div class="project-header">
+				<h1>Joever Rover</h1>
+				<p>Sept 2023 - Dec 2023</p>
+			</div>
+			<h3>No need to fear, Joever Rover's here!</h3>
+			<div class="project-wrapper">
+				<div class="wrapper-main">
+					<p>
+					Feeling sad? Joever Rover can help cheer you up! This happy robot companion drives up to distressed people and plays music to bring joy wherever it goes! This was my SE 101 group project, and I mainly worked on Joever Rover's sight. I configured the camera module to work with OpenCV on the Raspberry Pi, eliminating the need to replace it with a usb camera. With the camera working, I implemented face detection using OpenCV. I also trained an emotion detection model with Keras so the Joever Rover knows who to go to.
+					</p>
+				</div>
+				<div class="vertical">
+					<div class="row pretty_gradient" id="left">
+						<img src="images/joe_roe.PNG">
+					</div>
+					<div class="row" id="right">
+						<video autoplay="autoplay"controls muted loop>	
+						<source src="images/joever-rover-celebration.MOV">
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="project" id="all_projects">
+			<div class="project-header">
+				<h1>School Map</h1>
+				<p>Jan 2023 - May 2023</p>
+			</div>
+			<h3>(insert)</h3>
+			<div class="project-wrapper">
+				<div class="wrapper-main">
+					<p>
+					At my secondary school, I noticed that many new students had trouble finding their classrooms. So in grade 12, I dedicated my capstone project to making a navigation app. I mapped out the entire school, then coded Dijkstra's algorithm in Python to find the shortest path from one classroom to another. Then, I used PIL to draw a path onto the map. To bring it all together, I used Kivy to create the app. For ease of use, I included a dropdown menu and scrollable map. 
+					</p>
+				</div>
+				<div class="vertical">
+					<div class="row" id="left">
+						<img src="images/hs_hallway.png">
+					</div>
+					<div class="row pretty_gradient2" id="right">
+						<img src="images/map-app-prev.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="project" id="all_projects">
+			<div class="project-header">
+				<h1>Papple Princess</h1>
+				<p>March 2021</p>
+			</div>
+			<h3>(insert)</h3>
+			<div class="project-wrapper">
+				<div class="wrapper-main">
+					<p>
+					Created for the 2021 PixelPAD March Break Game Jam, this is a simple, fast-paced platformer. You play as the Papple Princess trying to save the world. This game will have you jump across obstacles, defeat enemies, and finally best the demon lord. Using Python, I coded the physics, including collisions, enemy movement, and the boss fight. I also created the graphics using Aseprite and the 8-bit music in Bosca Ceoil.
+					</p>
+				</div>
+				<div class="vertical">
+					<div class="row" id="left">
+						<img src="images/papple_princess.PNG">
+					</div>
+					<div class="row" id="right">
+						<img src="images/papple-princess-gameplay.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contact">
+			<h1>Contact</h1>
+			<p>Email:</p><a href="mailto:kayla76815@gmail.com">kayla76815@gmail.com</a>
+		</div>
+		</div>
+	</body>
+</html>
