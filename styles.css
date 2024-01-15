@@ -254,6 +254,7 @@ body{
 	display: inline;
 	font-size: 30px;
 	color: var(--text-color);
+	font-weight: 600;
 }
 .contact a{
 	display: inline;
